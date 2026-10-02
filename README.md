@@ -1,4 +1,4 @@
-# Windows WindowMetrics Tweaks
+# WindowMetrics Tweaks
 
 Batch scripts to reduce title bar height, scrollbar size, and system font sizes on Windows.  
 Especially useful on **720p** and other small screens where every pixel of usable space matters.
