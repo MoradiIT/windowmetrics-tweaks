@@ -1,11 +1,11 @@
 # WindowMetrics Tweaks
 
 Batch scripts to reduce title bar height, scrollbar size, and system font sizes on Windows.  
-Especially useful on **720p** and other small screens where every pixel of usable space matters.
+Especially useful on **720p** and other small screens where every pixel of usable space matters. </br><br>
 
-## What these scripts do
+### What these scripts do
 
-### `windowmetrics_tweaks.bat`
+#### `windowmetrics_tweaks.bat`
 Applies the following changes under  
 `HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics`:
 
@@ -27,35 +27,36 @@ Applies the following changes under
 | Icon             | 8    | Bold   |
 | Tooltip / Status | 8    | Bold   |
 
-### `restore_windowmetrics_defaults.bat`
+#### `restore_windowmetrics_defaults.bat`
 Restores common Windows defaults:
 
 - CaptionHeight / CaptionWidth → `-330`
 - ScrollHeight / ScrollWidth → `-255`
 - All six fonts → Segoe UI ≈ 9 pt Regular
-
-## Why use this?
+ </br><br>
+### Why use this?
 
 On low-resolution displays (especially **720p**), the default large title bars, thick scrollbars and bigger fonts waste a lot of vertical and horizontal space.  
 Reducing these values gives noticeably more room for content.
 
 **Tested and recommended for 720p resolutions** where screen real-estate is limited.
-
-## How to use
+ </br><br>
+ 
+### How to use
 
 1. Download the `.bat` files.
 2. Right-click the desired script → **Run as administrator**.
 3. Log off and log back in (or restart Explorer) for the changes to take effect.
-
-
-## Notes
+ </br><br>
+### Notes
 
 - Changes are per-user (`HKCU`).
 - Works on Windows 10 and Windows 11.
 - Some modern UWP / WinUI apps may ignore classic WindowMetrics settings.
 - Always create a System Restore point or export the `WindowMetrics` key before applying.
-
-## Screenshots
+ </br><br>
+ 
+### Screenshots
 
 Before applying the script and after applying. Look at the fonts, scrollbars, and caption height.
 
