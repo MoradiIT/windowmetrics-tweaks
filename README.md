@@ -1,11 +1,11 @@
-# Windows WindowMetrics Tweaks (Small Screens / 720p)
+# Windows WindowMetrics Tweaks
 
 Batch scripts to reduce title bar height, scrollbar size, and system font sizes on Windows.  
 Especially useful on **720p** and other small screens where every pixel of usable space matters.
 
 ## What these scripts do
 
-### `set_windowmetrics_fonts.bat`
+### `windowmetrics_tweaks.bat`
 Applies the following changes under  
 `HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics`:
 
@@ -47,7 +47,6 @@ Reducing these values gives noticeably more room for content.
 2. Right-click the desired script → **Run as administrator**.
 3. Log off and log back in (or restart Explorer) for the changes to take effect.
 
-> **Tip**: Always run the restore script first if you want to go back to defaults.
 
 ## Notes
 
@@ -56,6 +55,10 @@ Reducing these values gives noticeably more room for content.
 - Some modern UWP / WinUI apps may ignore classic WindowMetrics settings.
 - Always create a System Restore point or export the `WindowMetrics` key before applying.
 
-## License
+## Screenshots
 
-Public domain / free to use and modify.
+Before applying the script and after applying. Look at the fonts, scrollbars, and caption height.
+
+![Default Windows Settings](ScreenShot1.png)
+
+![Modified](ScreenShot2.png)
