@@ -9,6 +9,8 @@ Especially useful on **720p** and other small screens where every pixel of usabl
 Applies the following changes under  
 `HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics`:
 
+<br>
+
 **Sizes**
 | Value            | New value |
 |------------------|-----------|
@@ -16,6 +18,8 @@ Applies the following changes under
 | CaptionWidth     | -270      |
 | ScrollHeight     | -80       |
 | ScrollWidth      | -80       |
+
+<br>
 
 **Fonts** (Segoe UI)
 | Element          | Size | Style  |
@@ -27,6 +31,8 @@ Applies the following changes under
 | Icon             | 8    | Bold   |
 | Tooltip / Status | 8    | Bold   |
 
+<br>
+
 #### `restore_windowmetrics_defaults.bat`
 Restores common Windows defaults:
 
@@ -36,8 +42,7 @@ Restores common Windows defaults:
  </br><br>
 ### Why use this?
 
-On low-resolution displays (especially **720p**), the default large title bars, thick scrollbars and bigger fonts waste a lot of vertical and horizontal space.  
-Reducing these values gives noticeably more room for content.
+On low-resolution displays (especially **720p**), the default large title bars, thick scrollbars and bigger fonts waste a lot of vertical and horizontal space. Reducing these values gives noticeably more room for content.
 
 **Tested and recommended for 720p resolutions** where screen real-estate is limited.
  </br><br>
